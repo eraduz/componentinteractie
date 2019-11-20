@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OpaComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
+  private Opa: Object = {
+    naam: 'Tom'
   }
 
+  constructor() {
+  
+  }
+
+  ngOnInit() {
+    
+  }
+  
 }

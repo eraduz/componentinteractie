@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { vaderComponent } from '../vader/vader.component';
 
 @Component({
   selector: 'app-zoon',
@@ -7,7 +8,44 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ZoonComponent implements OnInit {
 
-  constructor() { }
+
+
+   Zoon: any = {
+    "zoonNaam":
+      [
+        {
+          "vader":
+            [
+              {
+                // "vader": this.zoon.Zoon.zoonNaam[0]
+              }
+            ],
+          "naam": 'Pinokkio'
+        },
+        {
+          "naam": 'Rietje'
+        },
+        {
+          "naam": 'Aggie'
+        },
+        {
+          "naam": 'Lola'
+        },
+        {
+          "naam": 'Hihi'
+        },
+        {
+          "naam": 'Lmao'
+        },
+        {
+          "naam": 'Wooow'
+        }
+      ]
+  }
+
+  constructor() {
+    
+  }
 
   ngOnInit() {
   }
