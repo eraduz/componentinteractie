@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import { vaderComponent } from '../vader/vader.component';
 
 @Component({
   selector: 'app-zoon',
@@ -10,16 +9,10 @@ export class ZoonComponent implements OnInit {
 
 
 
-   Zoon: any = {
+   Zoon: Object = {
     "zoonNaam":
       [
         {
-          "vader":
-            [
-              {
-                // "vader": this.zoon.Zoon.zoonNaam[0]
-              }
-            ],
           "naam": 'Pinokkio'
         },
         {

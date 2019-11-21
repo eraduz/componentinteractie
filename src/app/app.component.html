@@ -2,13 +2,16 @@
 <hr>
 <div *ngFor="let vader of vader.Vader.vaders">
 <p>Vader {{vader.naam}} heeft X kinderen en is een kind van {{OpaNaam.Opa.naam}}</p> 
-<!-- {{vader.kinderen.length}} -->
 </div>
+{{vader.Vader.vaders[0].kinderen.length | json}}
+
 <hr>
 <div *ngFor="let zoon of zoon.Zoon.zoonNaam">
   <p>Zoon {{zoon.naam}} is een kind van Y</p>
 </div>
 <hr>
+
+<!-- {{zoon.Zoon.zoonNaam | json}} -->
 
 <!-- {{zoon.Zoon.zoonNaam[0] | json}}
 

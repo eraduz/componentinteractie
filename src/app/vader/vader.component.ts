@@ -10,7 +10,7 @@ export class VaderComponent implements OnInit {
 
   zoon = new ZoonComponent;
 
-  private Vader: Object = {
+  Vader: Object = {
     "vaders":
       [
         {
@@ -18,7 +18,7 @@ export class VaderComponent implements OnInit {
           "kinderen":
             [
               {
-                "kind": this.zoon.Zoon.zoonNaam[0]
+                // "kind": this.zoon.Zoon.zoonNaam[0]
               }
             ]
         },
